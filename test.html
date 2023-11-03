@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Contact Lookup</h1>
+    <select id="departmentSelect">
+        <option value="Billing">Billing</option>
+        <option value="Purchasing">Purchasing</option>
+        <option value="Sales">Sales</option>
+        <option value="Accounting">Accounting</option>
+    </select>
+    <div id="contactInfo">
+        <p>Name: <span id="contactName"></span></p>
+        <p>Email: <span id="contactEmail"></span></p>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+<script>
+    // Event listener for the dropdown change event
+    document.getElementById("departmentSelect").addEventListener("change", function () {
+        // Get the selected department from the dropdown
+        const selectedDepartment = this.value;
+
+        // Use AJAX to load and parse the CSV file
+        Papa.parse("test.csv", {
+            download: true,
+            header: true,
+            skipEmptyLines: true,
+            complete: function (results) {
+                // Callback function to handle the parsed data
+                handleData(results.data, selectedDepartment);
+            }
+        });
+    });
+
+    function handleData(contacts, selectedDepartment) {
+        // Iterate through the CSV data to find the contact for the selected department
+        const contact = contacts.find(item => item.Department === selectedDepartment);
+
+        if (contact) {
+            // Display the contact information
+            document.getElementById("contactName").textContent = contact.Name;
+            document.getElementById("contactEmail").textContent = contact.Email;
+        } else {
+            // Handle the case where no contact is found
+            document.getElementById("contactName").textContent = "Contact not found";
+            document.getElementById("contactEmail").textContent = "";
+        }
+    }
+</script>
+</body>
+</html>
