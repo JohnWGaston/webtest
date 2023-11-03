@@ -1,5 +1,41 @@
-Name,Email,Department
-Don Snow,dsnow@example.com,Billing
-Billy Kid,bkid@example.com,Purchasing
-Clondike Morris,cmorris@example.com,Sales
-Hubert Armstrong,harmstrong@example.com,Accounting
+Department,Name,Email
+Advancement Services,Pamela Castaneda,pxc049@shsu.edu
+Controllers Office,Pamela Castaneda,pxc049@shsu.edu
+Public Safety Services (UPD),Pamela Castaneda,pxc049@shsu.edu
+Veterans Resource Center,Pamela Castaneda,pxc049@shsu.edu
+Undergraduate Admissions,Pamela Castaneda,pxc049@shsu.edu
+Registrars Office,Pamela Castaneda,pxc049@shsu.edu
+Internal Audit,Pamela Castaneda,pxc049@shsu.edu
+Disbursements and Travel Services,Pamela Castaneda,pxc049@shsu.edu
+Sam Houston Press and Copy Center,Pamela Castaneda,pxc049@shsu.edu
+Property Department,Pamela Castaneda,pxc049@shsu.edu
+Agricultural Sciences,Ely Gonzalez,ely.gonzalez@shsu.edu
+BearKat OneCard Services,Ely Gonzalez,ely.gonzalez@shsu.edu
+Chemistry Department,Ely Gonzalez,ely.gonzalez@shsu.edu
+College of Osteopathic Medicine,Ely Gonzalez,ely.gonzalez@shsu.edu
+Facilities Management,Ely Gonzalez,ely.gonzalez@shsu.edu
+Geography & Geology,Ely Gonzalez,ely.gonzalez@shsu.edu
+Lowman Student Center,Ely Gonzalez,ely.gonzalez@shsu.edu
+Residence Life,Ely Gonzalez,ely.gonzalez@shsu.edu
+Student Money Management Center ,Ely Gonzalez,ely.gonzalez@shsu.edu
+Receiving,Ely Gonzalez,ely.gonzalez@shsu.edu
+Academic Accounting,Kim Tibiletti,klt063@shsu.edu
+Banking,Kim Tibiletti,klt063@shsu.edu
+College of Business Administration,Kim Tibiletti,klt063@shsu.edu
+College of Health Sciences,Kim Tibiletti,klt063@shsu.edu
+English Department,Kim Tibiletti,klt063@shsu.edu
+Graduate Studies,Kim Tibiletti,klt063@shsu.edu
+Library Science Department,Kim Tibiletti,klt063@shsu.edu
+Newton Gresham Library,Kim Tibiletti,klt063@shsu.edu
+Presidents Office,Kim Tibiletti,klt063@shsu.edu
+School of Nursing,Kim Tibiletti,klt063@shsu.edu
+Art Department,Katie Luedke,kxr085@shsu.edu
+CMIT,Katie Luedke,kxr085@shsu.edu
+College of Crimal Justice,Katie Luedke,kxr085@shsu.edu
+Dance Department,Katie Luedke,kxr085@shsu.edu
+IT Client Services,Katie Luedke,kxr085@shsu.edu
+LEMIT,Katie Luedke,kxr085@shsu.edu
+Mass Communications,Katie Luedke,kxr085@shsu.edu
+PI Delta (Grant),Katie Luedke,kxr085@shsu.edu
+School of Music,Katie Luedke,kxr085@shsu.edu
+SHSU Online,Katie Luedke,kxr085@shsu.edu
